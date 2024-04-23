@@ -1,7 +1,7 @@
 function Footer() {
   return (
-    <footer className="bg-gray-900 text-white my-8 flex flex-col gap-8">
-      <div className="container max-w-[1280px] py-8 mx-auto flex flex-col gap-8 items-start justify-between md:flex-row">
+    <footer className="bg-gray-900 text-white my-8 grid grid-cols gap-8">
+      <div className="container max-w-[1280px] py-8 mx-auto grid grid-cols-1 md:grid-cols-5 gap-8 items-start">
         <div className="flex flex-col gap-4">
           <h2 className="text-lg font-bold mb-2">Exclusive</h2>
           <p className="text-gray-100">Subscribe</p>
