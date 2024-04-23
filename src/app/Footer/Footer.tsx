@@ -1,8 +1,17 @@
+import Image from "next/image";
+import qr from "../../assets/qr-icon.svg";
+import logoGooglePlay from "../../assets/google-play.svg";
+import logoAppStore from "../../assets/app-store.svg";
+import facebook from "../../assets/facebook.svg";
+import twiter from "../../assets/twiter.svg";
+import instagram from "../../assets/instagram.svg";
+import linkedin from "../../assets/linkedin.svg";
+
 function Footer() {
   return (
     <footer className="bg-gray-900 text-white mt-[140px] grid grid-cols gap-8">
-      <div className="container max-w-[1440px] py-8 mx-auto grid grid-cols-1 md:grid-cols-5 gap-8 items-start">
-        <div className="flex flex-col gap-4">
+      <div className="container max-w-[1320px] py-8 mx-auto grid grid-cols-1 md:grid-cols-5 gap-[87px] items-start">
+        <div className="flex flex-col gap-[16px]">
           <h2 className="text-lg font-bold mb-2">Exclusive</h2>
           <p className="text-gray-100">Subscribe</p>
           <p className="text-gray-100">Get 10% off your first order</p>
@@ -12,7 +21,7 @@ function Footer() {
             placeholder="Enter your email"
           />
         </div>
-        <div className="flex flex-col gap-4">
+        <div className="flex flex-col gap-[16px]">
           <h2 className="text-lg font-bold mb-2">Support</h2>
           <p className="text-gray-100">
             111 Bijoy sarani, Dhaka, DH 1515, Bangladesh.
@@ -20,7 +29,7 @@ function Footer() {
           <p className="text-gray-100">exclusive@gmail.com</p>
           <p className="text-gray-100">+88015-88888-9999</p>
         </div>
-        <div className="flex flex-col gap-4">
+        <div className="flex flex-col gap-[16px]">
           <h2 className="text-lg font-bold mb-2">Account</h2>
           <a className="text-gray-100" href="#">
             My Account
@@ -38,7 +47,7 @@ function Footer() {
             Shop
           </a>
         </div>
-        <div className="flex flex-col gap-4">
+        <div className="flex flex-col gap-[16px]">
           <h2 className="text-lg font-bold mb-2">Quick Link</h2>
           <a className="text-gray-100" href="#">
             Privacy Policy
@@ -53,9 +62,36 @@ function Footer() {
             Contact
           </a>
         </div>
-        <div className="flex flex-col gap-4">
+        <div className="flex flex-col gap-[24px]">
           <h2 className="text-lg font-bold mb-2">Download App</h2>
-          <p className="text-gray-400">Save $3 with App New User Only</p>
+          <div className="flex flex-col gap-[8px]">
+            <p className="text-gray-400 text-[12px]">
+              Save $3 with App New User Only
+            </p>
+            <div className="grid grid-cols-2 grid-rows-2">
+              <Image className="row-span-2" src={qr} alt="qr-icons" />
+              <a href="#">
+                <Image src={logoGooglePlay} alt="logoGooglePlay" width={110} />
+              </a>
+              <a href="#">
+                <Image src={logoAppStore} alt="" width={110} />
+              </a>
+            </div>
+          </div>
+          <div className="flex gap-[24px]">
+            <a className="w-[24px] h-[24px] flex justify-center" href="#">
+              <Image src={facebook} alt="facebook" height={20} />
+            </a>
+            <a className="w-[24px] h-[24px] flex justify-center" href="#">
+              <Image src={twiter} alt="twiter" height={20} />
+            </a>
+            <a className="w-[24px] h-[24px] flex justify-center" href="#">
+              <Image src={instagram} alt="instagram" height={20} />
+            </a>
+            <a className="w-[24px] h-[24px] flex justify-center" href="#">
+              <Image src={linkedin} alt="linkding" height={20} />
+            </a>
+          </div>
         </div>
       </div>
       <div className="flex justify-center border-t border-slate-800">
