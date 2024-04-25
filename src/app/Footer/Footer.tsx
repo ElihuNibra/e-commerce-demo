@@ -2,10 +2,10 @@ import Image from "next/image";
 import qr from "../../assets/qr-icon.svg";
 import logoGooglePlay from "../../assets/google-play.svg";
 import logoAppStore from "../../assets/app-store.svg";
-import facebook from "../../assets/facebook.svg";
-import twiter from "../../assets/twiter.svg";
-import instagram from "../../assets/instagram.svg";
-import linkedin from "../../assets/linkedin.svg";
+import facebook from "../../assets/social-media/facebook.svg";
+import twiter from "../../assets/social-media/twiter.svg";
+import instagram from "../../assets/social-media/instagram.svg";
+import linkedin from "../../assets/social-media/linkedin.svg";
 
 function Footer() {
   return (
