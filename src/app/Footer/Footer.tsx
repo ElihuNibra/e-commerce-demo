@@ -9,7 +9,7 @@ import linkedin from "../../assets/linkedin.svg";
 
 function Footer() {
   return (
-    <footer className="bg-gray-900 text-white mt-32 grid grid-cols gap-8 justify-center">
+    <footer className="bg-gray-900 text-white grid grid-cols gap-8 justify-center">
       <div className="container py-8 grid grid-cols-1 md:px-6 md:grid-cols-2 lg:grid-cols-5 gap-20 items-start">
         <div className="flex flex-col gap-4">
           <h2 className="text-lg font-bold mb-2">Exclusive</h2>
