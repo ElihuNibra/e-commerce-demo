@@ -1,8 +1,8 @@
 import Image from "next/image";
-import image1 from "../../assets/new-arrival/playstation.svg";
-import image2 from "../../assets/new-arrival/women-collection.svg";
-import image3 from "../../assets/new-arrival/parlante.svg";
-import image4 from "../../assets/new-arrival/perfume.svg";
+import image1 from "../../../assets/new-arrival/playstation.svg";
+import image2 from "../../../assets/new-arrival/women-collection.svg";
+import image3 from "../../../assets/new-arrival/parlante.svg";
+import image4 from "../../../assets/new-arrival/perfume.svg";
 
 function NewArrival() {
   return (

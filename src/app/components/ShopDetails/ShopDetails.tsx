@@ -1,8 +1,8 @@
 import Image from "next/image";
-import delivery from "../../assets/delivery-icon.svg";
-import headPhone from "../../assets/headphone-icon.svg";
-import shield from "../../assets/shield-icon.svg";
-import IconsDetails from "@/components/IconsDetails";
+import delivery from "../../../assets/delivery-icon.svg";
+import headPhone from "../../../assets/headphone-icon.svg";
+import shield from "../../../assets/shield-icon.svg";
+import IconsDetails from "@/app/components/ShopDetails/components/IconsDetails";
 
 function ShopDetails() {
   return (
