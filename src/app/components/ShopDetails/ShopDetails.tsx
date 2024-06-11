@@ -6,8 +6,8 @@ import IconsDetails from "@/app/components/ShopDetails/components/IconsDetails";
 
 function ShopDetails() {
   return (
-    <section className="mb-32 flex justify-center px-6">
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-20 md:gap-16 lg:gap-20">
+    <section className="my-16 flex justify-center px-6">
+      <div className="container grid grid-cols-1 md:grid-cols-3 gap-20 md:gap-16 lg:gap-20">
         <IconsDetails
           title="FREE AND FAST DELIVERY"
           subTitle="Free delivery for all orders over $140"

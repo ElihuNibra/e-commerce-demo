@@ -6,8 +6,8 @@ import image4 from "../../../assets/new-arrival/perfume.svg";
 
 function NewArrival() {
   return (
-    <section className="mb-32 flex justify-center px-6">
-      <div className="grid gap-16">
+    <section className="my-16 flex justify-center px-6">
+      <div className="grid gap-16 container px-0">
         <div className="flex flex-col gap-5">
           <div className="flex items-center gap-4">
             <div className="w-5 h-10 bg-red-500 rounded-md"></div>
